@@ -1,0 +1,52 @@
+.resume {
+  width: 100%;
+}
+.timeline {
+  width: 100%;
+  &__education {
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    &__header-text {
+      color: var(--yellow-theme-sub-text-color);
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      position: relative;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      border-bottom: 2px solid var(--yellow-theme-main-color);
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    &__heder-text::before {
+      left: 0;
+    }
+    &__heder-text::after {
+      right: 0;
+    }
+    &__vertical-timeline-element {
+      padding: 0px 0px 10px 0px;
+      &:last-child{
+        padding: 0;
+      }
+    }
+    .vertical-timeline-element__title-wrapper{
+       
+  
+        h3,h4,h5{
+            font-size: 16px;
+            padding: 5px;
+            
+        }
+       
+    }
+    .vertical-timeline-element-content{
+        box-shadow: none;
+    }
+    .vertical-timeline-element-content p{
+        font-size: 2rem;
+    }
+  }
+}
