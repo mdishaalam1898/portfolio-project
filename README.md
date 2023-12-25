@@ -1,1 +1,1 @@
-##Front page
+<b>Front page</b>
